@@ -8,6 +8,6 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Repro.setup(this, "f6ab790a-3aac-4f4e-b6c7-1029da46684f");
+        Repro.setup(this, "REPRO_SDK_TOKEN");
     }
 }
